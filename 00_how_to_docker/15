@@ -1,0 +1,1 @@
+docker run --name orach-warden  --link spawning-pool:db -e MYSQL_ROOT_PASSWORD=Kerrigan -p 8081:80 -d phpmyadmin/phpmyadmin

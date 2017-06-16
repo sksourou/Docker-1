@@ -1,0 +1,4 @@
+# char
+export JOIN_CMD="`docker swarm join-token worker | sed "1d" | tr -d '\' | tr '\n' ' ' | sed -E 's/ +/ /g' | sed 's/^*d/d/g'`"
+
+# Aiur
