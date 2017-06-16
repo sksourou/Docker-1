@@ -1,2 +1,0 @@
-docker service log (error)??
-docker logs -f CONTAINER()

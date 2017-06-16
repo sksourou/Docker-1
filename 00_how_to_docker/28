@@ -1,2 +1,0 @@
-docker service create --name marines --network overmind -e OC_USERNAME=user -e OC_PASSWD=password 42school/marine-squad
-docker service scales marines=2
